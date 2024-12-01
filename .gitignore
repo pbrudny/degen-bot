@@ -1,0 +1,32 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+
+# IDE specific
+.vscode/
+.idea/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Environment variables file (keep it secret!)
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Virtual environment directory (if not in `env/` or `venv/`)
+venv/
